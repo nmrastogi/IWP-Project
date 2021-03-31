@@ -30,6 +30,160 @@ input {
   left: 0;
 }
 
+/*by ateeth */
+#form #email{ /* email validation part */
+  width: 300px;
+  outline: none;
+  background: transparent;
+  border: navajowhite;
+  padding: 12px 15px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+
+#form .indicator{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #555;
+}
+
+
+#form.valid .indicator{
+  background: #0f0;
+  box-shadow: 0 0 5px #0f0,
+              0 0 10px #0f0,
+              0 0 20px #0f0,
+              0 0 40px #0f0 ;
+}
+
+#form.invalid .indicator{
+  background: #f00;
+  box-shadow: 0 0 5px #f00,
+              0 0 10px #f00,
+              0 0 20px #f00,
+              0 0 40px #f00 ;
+}
+/email validation ends/
+/password validation begins/
+
+#form #pwd{ /* password validation part */
+  width: 300px;
+  outline: none;
+  background: transparent;
+  border: navajowhite;
+  padding: 12px 15px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+#form .indicator1{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #555;
+}
+
+#form.valid1 .indicator1{
+  background: #0f0;
+  box-shadow: 0 0 5px #0f0,
+              0 0 10px #0f0,
+              0 0 20px #0f0,
+              0 0 40px #0f0 ;
+}
+
+#form.invalid1 .indicator1{
+  background: #f00;
+  box-shadow: 0 0 5px #f00,
+              0 0 10px #f00,
+              0 0 20px #f00,
+              0 0 40px #f00 ;
+}
+/password validation ends/
+
+#form #pwd1{ /* reenter password validation part */
+  width: 300px;
+  outline: none;
+  background: transparent;
+  border: navajowhite;
+  padding: 12px 15px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+#form .indicator2{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #555;
+}
+
+#form.valid2 .indicator2{
+  background: #0f0;
+  box-shadow: 0 0 5px #0f0,
+              0 0 10px #0f0,
+              0 0 20px #0f0,
+              0 0 40px #0f0 ;
+}
+
+#form.invalid2 .indicator2{
+  background: #f00;
+  box-shadow: 0 0 5px #f00,
+              0 0 10px #f00,
+              0 0 20px #f00,
+              0 0 40px #f00 ;
+}
+/end of reenter password confirmation/
+
+/user name validation/
+#form #username{ /* username validation part */
+  width: 300px;
+  outline: none;
+  background: transparent;
+  border: navajowhite;
+  padding: 12px 15px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+#form .indicator3{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #555;
+}
+
+#form.valid3 .indicator3{
+  background: #0f0;
+  box-shadow: 0 0 5px #0f0,
+              0 0 10px #0f0,
+              0 0 20px #0f0,
+              0 0 40px #0f0 ;
+}
+
+#form.invalid3 .indicator3{
+  background: #f00;
+  box-shadow: 0 0 5px #f00,
+              0 0 10px #f00,
+              0 0 20px #f00,
+              0 0 40px #f00 ;
+}
+/end of user name validation/
+/*contribution by ateeth end */
+
 .signin-signup {
   position: absolute;
   top: 50%;
@@ -337,6 +491,7 @@ form.sign-in-form {
     height: 35px;
     font-size: 0.7rem;
   }
+
 
   .container:before {
     width: 1500px;
