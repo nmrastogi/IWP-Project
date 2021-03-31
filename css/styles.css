@@ -30,7 +30,7 @@ input {
   left: 0;
 }
 
-/*by ateeth */
+/* by ateeth */
 #form #email{ /* email validation part */
   width: 300px;
   outline: none;
@@ -68,8 +68,8 @@ input {
               0 0 20px #f00,
               0 0 40px #f00 ;
 }
-/email validation ends/
-/password validation begins/
+/*email validation ends*/
+/*password validation begins*/
 
 #form #pwd{ /* password validation part */
   width: 300px;
@@ -106,7 +106,7 @@ input {
               0 0 20px #f00,
               0 0 40px #f00 ;
 }
-/password validation ends/
+/*password validation ends*/
 
 #form #pwd1{ /* reenter password validation part */
   width: 300px;
@@ -143,9 +143,9 @@ input {
               0 0 20px #f00,
               0 0 40px #f00 ;
 }
-/end of reenter password confirmation/
+/*end of reenter password confirmation*/
 
-/user name validation/
+/*user name validation*/
 #form #username{ /* username validation part */
   width: 300px;
   outline: none;
@@ -181,7 +181,7 @@ input {
               0 0 20px #f00,
               0 0 40px #f00 ;
 }
-/end of user name validation/
+/*end of user name validation*/
 /*contribution by ateeth end */
 
 .signin-signup {

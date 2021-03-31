@@ -7,7 +7,7 @@
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Sign in & Sign up Form</title>
   </head>
   <body>
@@ -139,8 +139,8 @@
         </div>
       </div>
     </div>
-    <script src="app.js"></script>
-    <script src="valform.js"></script>
-    
+    <script src="js/app.js"></script>
+    <script src="js/valform.js"></script>
+
   </body>
 </html>
