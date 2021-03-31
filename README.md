@@ -8,7 +8,7 @@ Team:
 
 Aryan Rathore
 
-Ateeth Thingala
+Ateeth Arun
 
 Manan Jain
 
