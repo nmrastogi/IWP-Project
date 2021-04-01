@@ -6,7 +6,7 @@ We've created a social networking website named Chit-Chat.
 
 Team:
 
-Aryan Rathore
+Aryan Rathor
 
 Ateeth Arun
 
